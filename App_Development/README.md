@@ -8,6 +8,18 @@
 * To start run this command ( npx expo start )
 * Download expo app from the playstore/Appstore and scan the qrcode to run the app on the mobile phone
 
+### For Firebase 
+* Create an account on firebase
+* Create a project
+* Add firebase into project config file (firebase.js)
+* Enable firebase authentication (email and password authentication) for BMI Calculator App
+* Enable Firebase firestore databse for Recipe Maker App
+* And create collection name ( recipes )
+* And add document with these fields :- 
+  * title ( string )
+  * imgUrl ( string )
+  * ingredients ( array )
+  * timeTaken ( number )
 
 ### Bmi Calculator App Screenshots
 
