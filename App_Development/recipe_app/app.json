@@ -24,11 +24,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.mdasif08737.recipe_app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "build": { "babel": { "include": [ "@ui-kitten/components" ] }}
+    "build": {
+      "babel": {
+        "include": [
+          "@ui-kitten/components"
+        ]
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9c2274f0-d4db-4588-bd3f-ccc7e3b2a857"
+      }
+    }
   }
 }

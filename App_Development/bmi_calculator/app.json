@@ -24,7 +24,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.mdasif08737.bmi_calculator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -34,6 +35,11 @@
         "include": [
           "@ui-kitten/components"
         ]
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f8796a69-6c76-4871-9c8f-05d0b62e7ecd"
       }
     }
   }
